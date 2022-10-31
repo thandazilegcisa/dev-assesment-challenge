@@ -31,7 +31,7 @@ main{
     height: 232px;
     background: #75251E;
 
-    left: 68rem;
+    left: 64rem;
     bottom: 6.5rem;
 }
 
@@ -63,8 +63,8 @@ article{
 
 .mainImage{
     position: relative;
-    top:  -25rem;
-    left: 15rem;
+    top:  -30rem;
+    left: 17.5rem;
     width: 20vw;
 }
 
