@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dev-assesment-challenge/static/css/main.f2849348.css",
+    "main.js": "/dev-assesment-challenge/static/js/main.dae49a2f.js",
+    "static/media/WorkSans-Bold.ttf": "/dev-assesment-challenge/static/media/WorkSans-Bold.aa43e32a4b4e4ffe0942.ttf",
+    "static/media/Thandazile Gcisa_Photo.jpg": "/dev-assesment-challenge/static/media/Thandazile Gcisa_Photo.2b27a8b11452316b548d.jpg",
+    "index.html": "/dev-assesment-challenge/index.html",
+    "main.f2849348.css.map": "/dev-assesment-challenge/static/css/main.f2849348.css.map",
+    "main.dae49a2f.js.map": "/dev-assesment-challenge/static/js/main.dae49a2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2849348.css",
+    "static/js/main.dae49a2f.js"
+  ]
+}
