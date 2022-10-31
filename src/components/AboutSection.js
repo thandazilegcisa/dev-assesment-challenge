@@ -9,16 +9,16 @@ class AboutSection extends React.Component{
                 <span className="outSpan"> Out </span>
 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis ipsum quis ultrices feugiat. Ut urna ipsum, finibus et elementum fringilla, ultricies nec nisl. Maecenas a ante suscipit, bibendum quam eget, tristique mauris. Maecenas lectus nibh, tincidunt et nulla et, imperdiet hendrerit neque. Nam vulputate ante viverra tellus tempor, lacinia aliquam sem rutrum. Maecenas hendrerit erat nulla, nec tempus orci aliquam vel. Aenean scelerisque lorem et ultricies consectetur.
+                    I am a young digital creative born and bred in the Vaal, south of Gauteng. I recently graduated from the University of the Witwatersrand after completing a professional bachelor of arts honours degree in digital arts - specialising in Game design/development and Interactive Media (Front-End design/development)
 
-                    Sed elementum fermentum nisi vel condimentum. Sed et porttitor velit. Phasellus blandit tincidunt dictum. In vestibulum est id lacinia fermentum. Sed id metus ac nibh mollis euismod porta et tortor. Suspendisse pulvinar a nibh vitae finibus. Suspendisse et pulvinar orci. Pellentesque urna massa, pulvinar sed nibh ut, iaculis accumsan sapien. Donec quis mollis dui. 
+                    I am an adventurous,  free thinker that is driven by intent above all. I consider intent as a kind of motto that I live by because whenever I think or do something, my intent almost always brings a sense of criticality to what I think and eventually do. I often use my intent as a stepping stone for describing questions that revolve around What, Why, and How I approach life. It is a catalyst in acting on my goals, ambitions, and dreams and a reflective tool that has brought me back to taking action even upon perceived failure. 
                 </p> 
 
 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis ipsum quis ultrices feugiat. Ut urna ipsum, finibus et elementum fringilla, ultricies nec nisl. Maecenas a ante suscipit, bibendum quam eget, tristique mauris. Maecenas lectus nibh, tincidunt et nulla et, imperdiet hendrerit neque. Nam vulputate ante viverra tellus tempor, lacinia aliquam sem rutrum. Maecenas hendrerit erat nulla, nec tempus orci aliquam vel. Aenean scelerisque lorem et ultricies consectetur.
+                    Furthermore, I want to be a developer at SovTech because my intentions tell me that this is where i should to be. This is due to my commitment to social capital and my priority for people. And simply by keeping up with blog posts and videos, my intent tells me that SovTech is exactly the company that fosters social capital and prioritizes people. 
 
-                    Sed elementum fermentum nisi vel condimentum. Sed et porttitor velit. Phasellus blandit tincidunt dictum. In vestibulum est id lacinia fermentum. Sed id metus ac nibh mollis euismod porta et tortor. Suspendisse pulvinar a nibh vitae finibus. Suspendisse et pulvinar orci. Pellentesque urna massa, pulvinar sed nibh ut, iaculis accumsan sapien. Donec quis mollis dui. 
+                    This is also evident to me as a result of the rigorous recruitment process at display as i believe SovTech has provided me with the opportunity to express myself. As a result, I could only imagine the platform provided within the business environment, which is why I see can see myself continuing on after the graduate program - if given the opportunity and making SovTech my home. A home that is brimming with career growth opportunities in learning and applying cutting-edge technology, as well as developing world-class technologies and partnerships.
                 </p>
 
                 <span className="outSpan"> ab </span>
