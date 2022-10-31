@@ -100,7 +100,7 @@ ul li:nth-child(3){
 }
 
 /* Monitors */
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .blockMiddle{
         width: 52vw;
         height: 242px;
@@ -122,7 +122,7 @@ ul li:nth-child(3){
 }
  
 /*Laptop */
-@media screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     .blockMiddle{
         width: 60vw;
         height: 234.52px;   
