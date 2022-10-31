@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url("../fonts/Work_Sans/static/WorkSans-Bold.ttf");
+}
+
+.aboutSection{
+    position: inherit;
+    top: -35rem;
+}
+.aboutSection p{
+    width: 50%;
+    margin-left: 12.5rem;
+    line-height: 2rem;
+
+    text-align: justify;
+}
+.aboutSection p:nth-child(3){
+    /* top right bottom left */
+    margin: 5rem 0rem 0rem 30rem ;
+    text-align: justify;
+    justify-content: left;
+}
+.outSpan{
+    font-family: "Work Sans";
+    font-weight: 700; 
+    font-size: 450%;
+
+    align-items: center;
+    text-align: left;
+    text-transform: uppercase;
+
+    margin-left: 2rem;
+}
+.outSpan:nth-child(4){
+    position: relative;
+    top: -6.5rem;
+    left: 83.8rem;
+    color:#9985C0;;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .aboutSection p{
+        width: 50%;
+        height: 15%;
+        margin-left: 8.5rem;
+    }
+    .aboutSection p:nth-child(3){
+        /* top right bottom left */
+        margin: 5rem 0rem 0rem 20rem ;
+        text-align: justify;
+        justify-content: left;
+    }
+    .outSpan{
+        font-size: 250%;
+    }
+    .outSpan:nth-child(4){
+        top: -3rem;
+        left: 40rem;
+    }
+
+}
+@media only screen and (min-width: 375px) and (max-width: 768px){
+    .aboutSection p{
+        width: 70%;
+        margin-left: 1.5rem;
+        line-height: 1rem;
+        text-align: justify;
+        justify-content: left;
+
+        position: relative;
+        top: 20.5rem;
+    }
+    .aboutSection p:nth-child(3){
+        /* top right bottom left */
+        margin: 5rem 0rem 0rem 7.25rem ;
+        text-align: justify;
+        justify-content: left;
+        position: relative;
+        top: 20.5rem;
+    }
+    .outSpan{
+        font-size: 125%;
+        margin-left: 0rem;
+
+        position: relative;
+        top: 20rem;
+    }
+    .outSpan:nth-child(4){
+        font-size: 125%;
+        top: 22rem;
+        left: 20.5rem;
+    }
+}

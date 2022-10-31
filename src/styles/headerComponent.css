@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url("../fonts/Work_Sans/static/WorkSans-Bold.ttf");
+}
+
+.salutationText{
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 250%;
+    display: flex;
+
+    /* top left bottom right */
+    margin: 2rem 2rem 0rem 2.5rem ;
+
+    font-size: 2.5rem;
+    line-height: 103.38%;
+
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.svgTop{
+    transform: translate(0rem,0rem);
+}
+
+.svgSide{
+    transform: translate(92.5rem,-0.54rem);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .svgSide{
+        transform: translate(45.5rem,-0.54rem);
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px){
+    .svgSide{
+        transform: translate(23rem,-0.54rem);
+    }
+}

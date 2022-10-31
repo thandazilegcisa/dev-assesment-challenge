@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url("../fonts/Work_Sans/static/WorkSans-Bold.ttf");
+}
+
+.footerSection footer p{
+    font-family: 'Work Sans';
+    font-variant: normal;
+    font-weight: 700;
+    font-size: 250%;
+    /* or 72px */
+
+    width: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+    text-transform: uppercase;
+
+    position: relative;
+    top: 68rem;
+    left: 45%;
+}
+.footerSection footer p:nth-child(2){
+    top: 78rem;
+    left: 5%;
+    font-weight: 100;
+    color:  #1A1A1A;
+}
+.footerSection footer p:nth-child(2) span{
+    font-weight: 500;
+    color:  #1A1A1A;
+    margin-left: 27.5rem;
+}
+.footerSection footer p span{
+    text-align: right;
+    margin-left: 3.5rem;   
+}
+
+.footerSection footer img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 60em;
+    left:  70rem;
+    margin-top: 2.5rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .footerSection footer p{
+        top: 95rem;
+        left: 45%;
+    }
+    .footerSection footer p:nth-child(2){
+        top: 100rem;
+        left: 5%;
+        font-size: 150%;
+    }
+    .footerSection footer p:nth-child(2) span{
+        margin-left: 16.5rem;
+    }
+    .footerSection footer img{
+        top: 84.5rem;
+        left:  37rem;
+        margin-top: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px){
+    .footerSection footer p{
+        top: 75rem;
+        left: 45%;
+        font-size: 100%;
+    }
+    .footerSection footer p:nth-child(2){
+        top: 78rem;
+        left: 5%;
+        font-size: 80%;
+    }
+    .footerSection footer p:nth-child(2) span{
+        margin-left: 8.85rem;
+    }
+    .footerSection footer img{
+        display: flex;
+        flex-direction: row;
+        top: 74.5rem;
+        left: 15rem;
+        margin-top: 2.5rem;
+
+        font-size: 25%;
+    }
+}

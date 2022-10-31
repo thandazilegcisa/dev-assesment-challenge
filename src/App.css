@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Work Sans";
+  src: url("./fonts/Work_Sans/static/WorkSans-Bold.ttf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #F2EBD8;
 }
+.aboutButton{
+  background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+  position: relative;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  font-family: "Work Sans";
+  font-size: 180%;
+  
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: right;
+  text-transform: uppercase;
+
+  left: 95rem;
+  top: -119rem;
+
+  transform: rotate(90deg);
+}
+.aboutArrow{
+  position: absolute;
+  top: 42rem;
+  left: 95%
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 1200px){
+  .aboutArrow{
+    left: 75%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (min-width: 992px){
+  .aboutArrow{
+    left: 95%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+  .aboutButton{
+    font-family: "Work Sans";
+    font-size: 135%;
+    
+    left: 45.5rem;
+    top: -131.5rem;
+  }
+  .aboutArrow{
+    top: 30rem;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px){
+  .aboutButton{
+    font-family: "Work Sans";
+    font-size: 105%;
+    
+    left: 22.5rem;
+    top: -144.25rem;
+  }
+  .aboutArrow{
+    top: 16.5rem;
+    font-size: 25%;
   }
 }
