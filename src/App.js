@@ -1,15 +1,8 @@
 import "./App.css"
-import { useRef } from "react";
 import Header from "./components/Header.js";
 import HeroSection from "./components/HeroSection.js";
-import FooterSection from "./components/FooterSection.js";
 
 function App() {
-/*   let ref = useRef(null);
-
-  const handleClick = () =>{
-    this.ref.current?.scrollIntoView({behaviour:"smooth"})
-  }; */
 
   return (
     <div className="appComponentContainer">
